@@ -12,10 +12,8 @@ gem 'mysql2'
 gem 'puma'
 gem 'simple_form', '>= 3.0.0.rc'
 gem 'slim'
-group :assets do
-  gem 'compass-rails'
-  gem 'zurb-foundation'
-end
+gem 'compass-rails'
+gem 'zurb-foundation'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :rbx]
